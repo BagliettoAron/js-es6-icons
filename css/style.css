@@ -1,0 +1,40 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 90px;
+    background-color: azure;
+}
+
+/* MAIN */
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-wrapper{
+    display: flex;
+    width: calc(100% / 5);
+    border: 10px solid white;
+    height: 100px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrapper .card-content h4{
+    margin-top: 0.5rem;
+}
+
+
+
