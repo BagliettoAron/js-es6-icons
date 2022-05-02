@@ -132,11 +132,11 @@ animalsArray.forEach((animalData) => {
     console.log(thisAnimalIcon);
     
     // aggancio il main-container
-    const cardWrapper = document.querySelector(".main-container")
-    console.log(cardWrapper);
+    const mainContainer = document.querySelector(".main-container")
+    console.log(mainContainer);
 
     // aggiungo l'html
-    cardWrapper.innerHTML += (
+    mainContainer.innerHTML += (
         `<div class="card-wrapper">
             <div class="card-content">
                 <i class="${thisAnimalIcon} ${animalData.color}"></i>
