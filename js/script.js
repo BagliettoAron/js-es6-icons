@@ -126,21 +126,22 @@ animalsArray = [
 // Milestone 2
 // Ciascuna icona ha una proprietà "color": utilizzare questa proprietà per visualizzare le icone del colore corrispondente.
 
+// aggancio il main-container
+const mainContainer = document.querySelector(".main-container")
+console.log(mainContainer);
+
 // estraggo gli elementi necessari a formare il nome della icon e gli concateno
 animalsArray.forEach((animalData) => {
     const thisAnimalIcon = `${animalData.family} ${animalData.prefix}${animalData.name}`
     console.log(thisAnimalIcon);
     
-    // aggancio il main-container
-    const mainContainer = document.querySelector(".main-container")
-    console.log(mainContainer);
 
     // aggiungo l'html
     mainContainer.innerHTML += (
         `<div class="card-wrapper">
             <div class="card-content">
                 <i class="${thisAnimalIcon} ${animalData.color}"></i>
-                <h4>${animalData.name}</h4>
+                <h4>${animalData.name.toUpperCase()}</h4>
             </div>
         </div>`
     )

@@ -25,8 +25,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .card-wrapper{
@@ -39,7 +38,7 @@ main{
     border: 1px solid lightgrey;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 1rem;
     box-shadow: 2px 2px 2px;;
 }
 
@@ -53,7 +52,6 @@ main{
 
 .card-wrapper .card-content h4{
     margin-top: 0.5rem;
-    text-transform: uppercase;
 }
 
 /* COOMON */
