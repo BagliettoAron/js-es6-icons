@@ -14,26 +14,60 @@ header{
 }
 
 /* MAIN */
+
+main{
+    background-color: #dddddd;
+}
+
 .main-container{
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .card-wrapper{
     display: flex;
     width: calc(100% / 5);
     border: 10px solid white;
+    background-color: white;
     height: 100px;
-    background-color: blueviolet;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+    box-shadow: 2px 2px 2px;;
+}
+
+.card-content{
+    text-align: center;
+}
+
+.card-wrapper .card-content i {
+    font-size: 1.5rem;
 }
 
 .card-wrapper .card-content h4{
     margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+/* COOMON */
+
+.orange{
+    color: orange;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
 }
 
 
